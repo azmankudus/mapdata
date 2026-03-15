@@ -9,18 +9,20 @@ This repository stores hierarchical geographic boundary data in GeoJSON format. 
 ### Directory Structure
 ```
 mapdata/
-├── world.json                 # Level 1: All countries
-├── {country}/                 # Country folder (lowercase, underscores)
-│   ├── manifest.json          # State name → folder name mapping
-│   ├── states.json            # Level 2: States/provinces
-│   └── {state}/               # State folder (title case, underscores for spaces)
-│       └── districts.json     # Level 3: Districts/counties
+├── countries.json              # Level 1: All countries (GeoJSON)
+├── continents.json             # Continent/subcontinent mappings
+├── {country}/                  # Country folder (lowercase, underscores)
+│   ├── manifest.json           # State name → folder name mapping
+│   ├── states.json             # Level 2: States/provinces
+│   └── {state}/                # State folder (title case, underscores for spaces)
+│       └── districts.json      # Level 3: Districts/counties
 ```
 
 ### Data Flow
-1. `world.json` contains all country boundaries
-2. Each country folder contains state-level data
-3. Each state folder contains district-level data
+1. `countries.json` contains all country boundaries (GeoJSON FeatureCollection)
+2. `continents.json` contains continent/subcontinent mappings and centroids
+3. Each country folder contains state-level data
+4. Each state folder contains district-level data
 
 ## Naming Conventions
 
@@ -79,19 +81,40 @@ interface Feature {
 
 ## Countries Currently Supported
 
+**Southeastern Asia:**
+- brunei (4 states)
+- cambodia (25 states)
+- indonesia (34 states)
+- laos (18 states)
+- malaysia (22 states)
+- myanmar (14 states)
+- philippines (17 states)
+- singapore (5 states)
+- thailand (80 states)
+- timor_leste (13 states)
+- vietnam (64 states)
+
+**East Asia:**
 - china (35 states)
-- germany
-- greece (10 states)
 - japan (48 states)
 - korea (14 states)
-- malaysia
-- russia
-- saudi_arabia
-- thailand (80+ states)
-- usa (50+ states)
+
+**Europe:**
+- germany (11 states)
+- greece (10 states)
+
+**Middle East:**
+- saudi_arabia (14 states)
+
+**Americas:**
+- usa (51 states)
+
+**Eurasia:**
+- russia (83 states)
 
 ## File Size Notes
 
-- `world.json` is ~9MB (contains all countries)
+- `countries.json` is ~9MB (contains all countries as GeoJSON)
+- `continents.json` is ~10KB (continent mappings and centroids)
 - State files vary in size based on boundary complexity
 - District files contain the most granular data

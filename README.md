@@ -6,7 +6,8 @@ A hierarchical geographic data repository storing GeoJSON boundaries for countri
 
 ```
 mapdata/
-├── world.json              # World countries (FeatureCollection)
+├── countries.json          # World countries (FeatureCollection)
+├── continents.json         # Continent/subcontinent mappings
 ├── {country}/
 │   ├── manifest.json       # State name → folder name mapping
 │   ├── states.json         # State/province boundaries (FeatureCollection)
@@ -16,18 +17,47 @@ mapdata/
 
 ## Supported Countries
 
-| Country | Folder |
-|---------|--------|
-| China | `china/` |
-| Germany | `germany/` |
-| Greece | `greece/` |
-| Japan | `japan/` |
-| Korea | `korea/` |
-| Malaysia | `malaysia/` |
-| Russia | `russia/` |
-| Saudi Arabia | `saudi_arabia/` |
-| Thailand | `thailand/` |
-| USA | `usa/` |
+| Country | Folder | States |
+|---------|--------|--------|
+| Brunei | `brunei/` | 4 |
+| Cambodia | `cambodia/` | 25 |
+| China | `china/` | 35 |
+| Germany | `germany/` | 11 |
+| Greece | `greece/` | 10 |
+| Indonesia | `indonesia/` | 34 |
+| Japan | `japan/` | 48 |
+| Korea | `korea/` | 14 |
+| Laos | `laos/` | 18 |
+| Malaysia | `malaysia/` | 22 |
+| Myanmar | `myanmar/` | 14 |
+| Philippines | `philippines/` | 17 |
+| Russia | `russia/` | 83 |
+| Saudi Arabia | `saudi_arabia/` | 14 |
+| Singapore | `singapore/` | 5 |
+| Thailand | `thailand/` | 80 |
+| Timor-Leste | `timor_leste/` | 13 |
+| USA | `usa/` | 51 |
+| Vietnam | `vietnam/` | 64 |
+
+### Regional Coverage
+
+**Southeastern Asia (10 countries):**
+- Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor-Leste, Vietnam
+
+**East Asia (4 countries):**
+- China, Japan, Korea, Taiwan
+
+**Europe (2 countries):**
+- Germany, Greece
+
+**Middle East (1 country):**
+- Saudi Arabia
+
+**Americas (1 country):**
+- USA
+
+**Eurasia (1 country):**
+- Russia
 
 ## Data Format
 
@@ -68,7 +98,14 @@ All geometry files use GeoJSON `FeatureCollection` format:
 
 ```javascript
 // Load world countries
-const world = require('./world.json');
+const countries = require('./countries.json');
+
+// Load continent mappings
+const continents = require('./continents.json');
+
+// Get continent info for a country
+const info = continents.countryMap['Indonesia'];
+// { continent: 'Asia', subcontinent: 'South-Eastern Asia' }
 
 // Load US states
 const usStates = require('./usa/states.json');
