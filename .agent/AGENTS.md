@@ -81,35 +81,76 @@ interface Feature {
 
 ## Countries Currently Supported
 
-**Southeastern Asia:**
+**51 countries** organized by region:
+
+### Asia (48 countries)
+
+**South-Eastern Asia (11):**
 - brunei (4 states)
 - cambodia (25 states)
 - indonesia (34 states)
 - laos (18 states)
-- malaysia (22 states)
+- malaysia (21 states)
 - myanmar (14 states)
 - philippines (17 states)
 - singapore (5 states)
-- thailand (80 states)
+- thailand (78 states)
 - timor_leste (13 states)
 - vietnam (64 states)
 
-**East Asia:**
-- china (35 states)
+**Western Asia (18):**
+- armenia (11 states)
+- azerbaijan (2 states)
+- bahrain (4 states)
+- cyprus (6 states)
+- georgia (12 states)
+- iraq (18 states)
+- israel (6 states)
+- jordan (12 states)
+- kuwait (6 states)
+- lebanon (9 states)
+- oman (7 states)
+- palestine (2 states)
+- qatar (8 states)
+- saudi_arabia (14 states)
+- syria (14 states)
+- turkey (81 states)
+- united_arab_emirates (7 states)
+- yemen (22 states)
+
+**Southern Asia (8):**
+- afghanistan (34 states)
+- bangladesh (8 states)
+- bhutan (20 states)
+- india (36 states)
+- maldives (21 states)
+- nepal (7 states)
+- pakistan (7 states)
+- sri_lanka (9 states)
+
+**Eastern Asia (5):**
+- china (34 states)
 - japan (48 states)
 - korea (14 states)
+- mongolia (22 states)
+- north_korea (11 states)
+- taiwan (22 states)
 
-**Europe:**
+**Central Asia (5):**
+- kazakhstan (16 states)
+- kyrgyzstan (7 states)
+- tajikistan (5 states)
+- turkmenistan (5 states)
+- uzbekistan (14 states)
+
+### Europe (2 countries)
 - germany (11 states)
-- greece (10 states)
+- greece (8 states)
 
-**Middle East:**
-- saudi_arabia (14 states)
+### Americas (1 country)
+- usa (79 states)
 
-**Americas:**
-- usa (51 states)
-
-**Eurasia:**
+### Eurasia (1 country)
 - russia (83 states)
 
 ## File Size Notes
