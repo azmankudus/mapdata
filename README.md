@@ -17,7 +17,7 @@ mapdata/
 
 ## Supported Countries
 
-**94 countries** with hierarchical geographic data (country → state → district).
+**148 countries** with hierarchical geographic data (country → state → district).
 
 ### Asia (48 countries)
 
@@ -120,6 +120,65 @@ mapdata/
 | Ukraine | `ukraine/` | 27 |
 | United Kingdom | `united_kingdom/` | 4 |
 
+### Africa (53 countries)
+
+| Country | Folder | States |
+|---------|--------|--------|
+| Algeria | `algeria/` | 48 |
+| Angola | `angola/` | 18 |
+| Benin | `benin/` | 12 |
+| Botswana | `botswana/` | 10 |
+| Burkina Faso | `burkina_faso/` | 13 |
+| Burundi | `burundi/` | 18 |
+| Cabo Verde | `cabo_verde/` | 22 |
+| Cameroon | `cameroon/` | 10 |
+| Central African Republic | `central_african_republic/` | 17 |
+| Chad | `chad/` | 23 |
+| Comoros | `comoros/` | 3 |
+| Côte d'Ivoire | `cote_divoire/` | 14 |
+| Democratic Republic of the Congo | `democratic_republic_of_the_congo/` | 26 |
+| Djibouti | `djibouti/` | 6 |
+| Egypt | `egypt/` | 27 |
+| Equatorial Guinea | `equatorial_guinea/` | 7 |
+| Eritrea | `eritrea/` | 6 |
+| Eswatini | `eswatini/` | 4 |
+| Ethiopia | `ethiopia/` | 11 |
+| Gabon | `gabon/` | 9 |
+| Gambia | `gambia/` | 8 |
+| Ghana | `ghana/` | 16 |
+| Guinea | `guinea/` | 8 |
+| Guinea-Bissau | `guinea_bissau/` | 9 |
+| Kenya | `kenya/` | 47 |
+| Lesotho | `lesotho/` | 10 |
+| Liberia | `liberia/` | 15 |
+| Libya | `libya/` | 22 |
+| Madagascar | `madagascar/` | 22 |
+| Malawi | `malawi/` | 3 |
+| Mali | `mali/` | 9 |
+| Mauritania | `mauritania/` | 13 |
+| Mauritius | `mauritius/` | 12 |
+| Morocco | `morocco/` | 12 |
+| Mozambique | `mozambique/` | 11 |
+| Namibia | `namibia/` | 14 |
+| Niger | `niger/` | 8 |
+| Nigeria | `nigeria/` | 37 |
+| Republic of the Congo | `congo/` | 12 |
+| Rwanda | `rwanda/` | 5 |
+| São Tomé and Príncipe | `sao_tome_and_principe/` | 7 |
+| Senegal | `senegal/` | 14 |
+| Seychelles | `seychelles/` | 26 |
+| Sierra Leone | `sierra_leone/` | 4 |
+| Somalia | `somalia/` | 6 |
+| South Africa | `south_africa/` | 9 |
+| South Sudan | `south_sudan/` | 10 |
+| Sudan | `sudan/` | 18 |
+| Tanzania | `tanzania/` | 30 |
+| Togo | `togo/` | 5 |
+| Tunisia | `tunisia/` | 24 |
+| Uganda | `uganda/` | 4 |
+| Zambia | `zambia/` | 10 |
+| Zimbabwe | `zimbabwe/` | 10 |
+
 ### Americas (1 country)
 
 | Country | Folder | States |
@@ -145,6 +204,11 @@ mapdata/
 | Northern Europe | 10 |
 | Southern Europe | 16 |
 | Eastern Europe | 8 |
+| Northern Africa | 6 |
+| Western Africa | 16 |
+| Eastern Africa | 20 |
+| Middle Africa | 9 |
+| Southern Africa | 5 |
 | Americas | 1 |
 | Eurasia | 1 |
 
