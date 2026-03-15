@@ -17,7 +17,7 @@ mapdata/
 
 ## Supported Countries
 
-**148 countries** with hierarchical geographic data (country → state → district).
+**196 countries** with hierarchical geographic data (country → state → district).
 
 ### Asia (48 countries)
 
@@ -179,11 +179,64 @@ mapdata/
 | Zambia | `zambia/` | 10 |
 | Zimbabwe | `zimbabwe/` | 10 |
 
-### Americas (1 country)
+### Americas (35 countries)
 
 | Country | Folder | States |
 |---------|--------|--------|
+| Antigua and Barbuda | `antigua_and_barbuda/` | 6 |
+| Argentina | `argentina/` | 24 |
+| Bahamas | `bahamas/` | 32 |
+| Barbados | `barbados/` | 11 |
+| Belize | `belize/` | 6 |
+| Bolivia | `bolivia/` | 9 |
+| Brazil | `brazil/` | 27 |
+| Canada | `canada/` | 13 |
+| Chile | `chile/` | 16 |
+| Colombia | `colombia/` | 33 |
+| Costa Rica | `costa_rica/` | 7 |
+| Cuba | `cuba/` | 15 |
+| Dominica | `dominica/` | 10 |
+| Dominican Republic | `dominican_republic/` | 32 |
+| Ecuador | `ecuador/` | 24 |
+| El Salvador | `el_salvador/` | 14 |
+| Grenada | `grenada/` | 6 |
+| Guatemala | `guatemala/` | 22 |
+| Guyana | `guyana/` | 10 |
+| Haiti | `haiti/` | 10 |
+| Honduras | `honduras/` | 18 |
+| Jamaica | `jamaica/` | 14 |
+| Mexico | `mexico/` | 32 |
+| Nicaragua | `nicaragua/` | 15 |
+| Panama | `panama/` | 12 |
+| Paraguay | `paraguay/` | 18 |
+| Peru | `peru/` | 25 |
+| Saint Kitts and Nevis | `saint_kitts_and_nevis/` | 14 |
+| Saint Lucia | `saint_lucia/` | 11 |
+| Saint Vincent and the Grenadines | `saint_vincent_and_the_grenadines/` | 6 |
+| Suriname | `suriname/` | 10 |
+| Trinidad and Tobago | `trinidad_and_tobago/` | 15 |
 | USA | `usa/` | 79 |
+| Uruguay | `uruguay/` | 19 |
+| Venezuela | `venezuela/` | 24 |
+
+### Oceania (14 countries)
+
+| Country | Folder | States |
+|---------|--------|--------|
+| Australia | `australia/` | 8 |
+| Fiji | `fiji/` | 4 |
+| Kiribati | `kiribati/` | 3 |
+| Marshall Islands | `marshall_islands/` | 2 |
+| Micronesia | `micronesia/` | 4 |
+| Nauru | `nauru/` | 1 |
+| New Zealand | `new_zealand/` | 17 |
+| Palau | `palau/` | 16 |
+| Papua New Guinea | `papua_new_guinea/` | 4 |
+| Samoa | `samoa/` | 5 |
+| Solomon Islands | `solomon_islands/` | 9 |
+| Tonga | `tonga/` | 5 |
+| Tuvalu | `tuvalu/` | 1 |
+| Vanuatu | `vanuatu/` | 6 |
 
 ### Eurasia (1 country)
 
@@ -193,24 +246,7 @@ mapdata/
 
 ### Regional Summary
 
-| Region | Countries |
-|--------|-----------|
-| South-Eastern Asia | 11 |
-| Western Asia | 18 |
-| Southern Asia | 8 |
-| Eastern Asia | 5 |
-| Central Asia | 5 |
-| Western Europe | 10 |
-| Northern Europe | 10 |
-| Southern Europe | 16 |
-| Eastern Europe | 8 |
-| Northern Africa | 6 |
-| Western Africa | 16 |
-| Eastern Africa | 20 |
-| Middle Africa | 9 |
-| Southern Africa | 5 |
-| Americas | 1 |
-| Eurasia | 1 |
+
 
 ## Data Format
 
